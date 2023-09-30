@@ -1,0 +1,31 @@
+.set {
+  padding-top: 63px;
+}
+
+.set__title {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.set__inner {
+  min-height: 467px;
+  padding: 87px 0 150px; 
+  background-image: url('../images/set-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.set__inner-content {
+  max-width: 392px;
+}
+
+.set__item-title {
+  margin-bottom: 7px;
+}
+
+.set__descr {
+  padding: 0;
+  margin: 0;
+}
