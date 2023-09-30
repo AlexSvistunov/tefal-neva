@@ -55,3 +55,20 @@
   margin: 0;
   margin-bottom: 57px;
 }
+
+.neva__container {
+  max-width: 1079px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.neva__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.neva__list-item {
+  flex: 0 1 414px;
+}
+
