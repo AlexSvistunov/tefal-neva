@@ -1,0 +1,128 @@
+.hero {
+  padding-top: 203px;
+  background-image: url('../images/hero-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+
+}
+
+.hero__date {
+  display: inline-block;
+  font-size: 32px;
+  margin-bottom: 11px;
+}
+
+.hero__inner {
+  max-width: 675px;
+  min-height: 100vh;
+}
+
+.hero__title {
+  padding: 0;
+  margin: 0;
+  font-size: 74px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.hero__number {
+  font-size: 201px;
+  position: relative;
+  font-weight: 700;
+
+}
+
+.hero__number-word {
+  position: absolute;
+  top: 36px;
+  left: 15px;
+  font-size: 53px;
+}
+
+.hero__number-symbol {
+  font-size: 118px;
+}
+
+.hero__action {
+  display: flex;
+  margin-bottom: 27px;
+}
+
+.hero__action-img {
+  margin-right: 24px;
+}
+
+.hero__action-descr {
+  padding: 0;
+  margin: 0;
+  max-width: 155px;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+
+.hero__bottom {
+  background-color: var(--dark-color);
+  padding: 56px 0 37px;
+}
+
+.hero__bottom-inner {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-inner__text {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  color: var(--white-color);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bottom-inner__text span {
+  font-size: 32px;
+  text-transform: none;
+}
+
+.bottom-inner__text--get {
+  margin-right: 10px;
+}
+
+.bottom-inner__text--trade {
+  margin-right: 15px;
+}
+
+
+
+.bottom-inner__card {
+  display: inline-block;
+  width: 112px;
+  height: 88px;
+  background-image: url('../images/icons/card.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 28px;
+  transform: translateY(-5px);
+}
+
+.bottom-inner__arrow {
+  display: inline-block;
+  width: 30px;
+  height: 88px;
+  background-image: url('../images/icons/angle-right.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 30px;
+}
+
+.bottom-inner__percent {
+  display: inline-block;
+  font-size: 91px;
+  font-weight: 700;
+  color: var(--white-color);
+}

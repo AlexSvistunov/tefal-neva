@@ -1,0 +1,33 @@
+.header {
+  position: absolute;
+  padding: 70px 0 65px;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.header__container {
+  display: flex;
+}
+
+.tefal-logo {
+  width: 267px;
+  height: 56px;
+  margin-right: 70px;
+  background-image: url('../images/icons/logo-tefal.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.neva-logo {
+  width: 262px;
+  height: 68px;
+  background-image: url('../images/icons/logo-neva.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
