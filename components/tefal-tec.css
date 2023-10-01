@@ -1,5 +1,5 @@
 .tefal-tec {
-  padding: 42px 0 48px;
+  padding: 42px 0 0;
 }
 
 .tefal-tec__logo-box {
@@ -18,17 +18,20 @@
   background-repeat: no-repeat;
 }
 
+.tefal-tec__box {
+  background-color: #efefef;
+}
 .tefal-tec__descr {
   padding: 0;
   margin: 0;
-  font-size: 26px;
+  font-size: var(--size-descr);
   margin-bottom: 60px;
 }
 
 .tefal-tec__title {
   margin: 0;
   padding: 0;
-  margin-bottom: 27px;
+  margin-bottom: 157px;
 }
 
 .tefal-tec__items {
@@ -36,6 +39,7 @@
   grid-template-columns: repeat(12,1fr);
   column-gap: 30px;
   row-gap: 87px;
+  transform: translateY(-142px);
 }
 
 .tefal-tec__item {

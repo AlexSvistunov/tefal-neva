@@ -1,5 +1,9 @@
 .neva {
   padding: 125px 0;
+  background-image: url('../images/neva/neva-bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .neva__top {
@@ -50,7 +54,7 @@
 }
 
 .neva__descr {
-  font-size: 26px;
+  font-size: var(--size-descr);
   padding: 0;
   margin: 0;
   margin-bottom: 57px;
@@ -66,9 +70,51 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  row-gap: 30px;
 }
 
 .neva__list-item {
   flex: 0 1 414px;
 }
+
+.neva__container .swiper-wrapper {
+  box-sizing: border-box;
+}
+
+.neva__container .swiper {
+  width: 414px;
+  margin-left: 0;
+  margin-right: 0;
+
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+  
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 86px;
+  height: 86px;
+  background-image: url('../images/icons/slider-btn-prev.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9999;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-button-next {
+  right: 15%;
+  background-image: url('../images/icons/slider-btn-next.svg');
+}
+
+
+
 

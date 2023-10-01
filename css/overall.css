@@ -206,6 +206,23 @@ img {
     right: -10px;
 }
 
+.item__box {
+    position: relative;
+}
+
+.item__box::before {
+    position: absolute;
+    content: "";
+    background-image: url('../images/icons/item-box-icon.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+    top: 6px;
+    left: 5px;
+}
+
 
 
 

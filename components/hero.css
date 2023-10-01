@@ -1,5 +1,5 @@
 .hero {
-  padding-top: 203px;
+  padding-top: 200px;
   background-image: url('../images/hero-bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -15,7 +15,6 @@
 
 .hero__inner {
   max-width: 675px;
-  min-height: 100vh;
 }
 
 .hero__title {
@@ -107,6 +106,7 @@
   background-size: contain;
   margin-right: 28px;
   transform: translateY(-5px);
+  flex-shrink: 0;
 }
 
 .bottom-inner__arrow {
