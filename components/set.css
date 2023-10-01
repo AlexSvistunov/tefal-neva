@@ -1,5 +1,5 @@
 .set {
-  padding-top: 63px;
+  padding: 60px 0;
 }
 
 .set__title {
@@ -28,4 +28,37 @@
 .set__descr {
   padding: 0;
   margin: 0;
+}
+
+.sets {
+  margin-bottom: 44px;
+}
+
+.sets__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+
+}
+
+.sets__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+
+.accessories__list {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  gap: 30px;
+}
+
+.accessories__item {
+  grid-column: 4 span;
+}
+
+.accessories__item-descr {
+  margin: 0;
+  padding: 0;
 }

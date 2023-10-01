@@ -6,6 +6,11 @@
   background-position: center;
 }
 
+.tefal-knives__list {
+  padding: 0;
+  margin: 0;
+}
+
 .tefal-knives__title {
   padding: 0;
   margin: 0;
@@ -21,9 +26,8 @@
 
 .tefal-knives__row {
   display: flex;
-  justify-content: space-between;
 }
 
 .tefal-knives__row-text {
- 
+ margin-right: auto;
 }

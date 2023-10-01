@@ -1,0 +1,30 @@
+.footer {
+  padding: 70px 0;
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+.footer-top {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.footer-top__btn {
+  padding: 15px 40px;
+  max-width: 414px;
+  width: 100%;
+  min-height: 68px;
+  background-color: transparent;
+  font-size: 22px;
+  font-weight: 700;
+  border: 2px solid var(--white-color);
+  border-radius: 40px;
+  color: var(--white-color);
+
+}
+
+.footer-top__btn--1 {
+  margin-right: 30px;
+}
+
+
